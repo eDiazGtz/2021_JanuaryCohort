@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+    <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName">
+        <br>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <br>
+        <label for="pwConfirm">PW Confirm</label>
+        <input type="password" name="pwConfirm">
+        <br>
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthdate">
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <p>A short description about yourself:</p>
+            <textarea></textarea>
+            <br>
+            <br>
+
+            <label for="language">Favorite Language</label>
+            <select name="language">
+                <option disabled selected>Pick a Language</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="javascript">Javascipt</option>
+                <option value="ruby">Ruby</option>
+                <option value="c#">C#</option>
+                <option value="php">PHP</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="sql">SQL</option>
+                <option value="nosql">NoSQL</option>
+            </select>
+
+            <br>
+            <input type="button" value="Submit">
+    </form>
+</body>
+</html>
