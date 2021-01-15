@@ -1,0 +1,18 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+.center-box {
+    height: 150px;
+    background-color: #00107c;
+    /* //display flex allowed center-item to be at center of screen horizontally */
+    display: flex;
+}
+.center-item {
+    height: 50px;
+    width: 50px;
+    /* //margin auto centered vertically auto centered horizontally */
+    margin: auto auto;
+    background-color: #ffe3ba;
+}

@@ -2,29 +2,29 @@
 *{ 
     margin: 0px;
     padding: 0px;
-   }
-   #wrapper{
+}
+#wrapper{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
     /* //This will push Silver to Top of Page */
     overflow: auto;
-   }
-   #header{
+}
+#header{
     min-height: 150px;
     /* //Added margin */
     margin: 10px;
     background-color: green;
-   }
-   #navigation{
+}
+#navigation{
     min-height: 300px;
     width: 200px;
     margin: 10px;
     /* //inline block will help share the space with Red */
     display: inline-block;
     background-color: blue;
-   }
-   #main_content{
+}
+#main_content{
     min-height: 400px;
     /* //Added 5px to width so it aligns with Green */
     width: 705px;
@@ -33,8 +33,8 @@
     /* Vertical align will be what brings red to align with blue @ top */
     vertical-align: top;
     background-color: red;
-   }
-   .subcontents{
+}
+.subcontents{
     min-height: 200px;
     width: 210px;
     /* Only add top and left margins to center squares */
@@ -42,11 +42,10 @@
     margin-left: 10px;
     display: inline-block;
     background-color: yellow;
-   }
-   #advertisement{
+}
+#advertisement{
     min-height: 120px;
     width: 660px;
     margin: 10px;
     background-color: purple;
-   }
-   
+}

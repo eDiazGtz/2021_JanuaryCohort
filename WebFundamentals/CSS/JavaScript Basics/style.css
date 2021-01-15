@@ -1,0 +1,51 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 970px;
+    background-color: #12355b;
+    margin: 0px auto;
+    /* //This will push Silver to Top of Page */
+    overflow: auto;
+}
+h1, h2, p {
+    color: #bfd7ea;
+}
+.header {
+    background-color: #d72638;
+    border-radius: 25px;
+    padding: 16px 0;
+    margin: 10px;
+}
+.header h1 {
+    margin: 5px 10px;
+}
+.navbar {
+    width: auto;
+    background-color: #087e8b;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px 0px 15px 10px;
+    /* //Display inline-block to share line with other element */
+    display: inline-block;
+}
+.navbar ul{
+    margin: 0px 10px;
+}
+a {
+    color: #52dee5;
+}
+.main-content {
+    width: 730px;
+    padding: 10px 0px 15px 15px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 25px;
+    background-color: #0c1821;
+    display: inline-block;
+    vertical-align: top;
+}
+span {
+    color: #768edc;
+}
